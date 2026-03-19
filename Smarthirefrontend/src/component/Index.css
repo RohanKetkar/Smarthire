@@ -1,0 +1,138 @@
+body{
+font-family:Arial;
+margin:0;
+background:#f4f6f9;
+}
+
+/* Navbar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:white;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo{
+color:#1976d2;
+}
+
+.navbar ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+.navbar li{
+cursor:pointer;
+}
+
+.login-btn{
+padding:8px 20px;
+background:#1976d2;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+
+/* Hero */
+
+.hero{
+height:80vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#1976d2,#42a5f5);
+color:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.hero p{
+margin-top:15px;
+font-size:18px;
+}
+
+.explore-btn{
+margin-top:20px;
+padding:12px 30px;
+background:white;
+color:#1976d2;
+border:none;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+}
+
+
+/* Features */
+
+.features{
+padding:80px;
+text-align:center;
+}
+
+.feature-container{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+}
+
+.feature-card{
+background:white;
+padding:30px;
+width:250px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+
+/* Jobs */
+
+.jobs{
+padding:80px;
+text-align:center;
+}
+
+.job-container{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+}
+
+.job-card{
+background:white;
+padding:25px;
+width:250px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+.job-card button{
+margin-top:10px;
+padding:8px 20px;
+background:#1976d2;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+
+/* Footer */
+
+footer{
+background:#1976d2;
+color:white;
+text-align:center;
+padding:20px;
+}

@@ -1,4 +1,4 @@
-from:openjdk:17
+FROM:openjdk:17
 
 COPY target/*.jar app.jar
 
